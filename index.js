@@ -64,7 +64,7 @@ app.get('/bulks', async (req, res) => {
     }
 
     return res.status(200).json({
-      message: 'Blogs fetched successfully',
+   
       blogs
     });
   } catch (error) {
